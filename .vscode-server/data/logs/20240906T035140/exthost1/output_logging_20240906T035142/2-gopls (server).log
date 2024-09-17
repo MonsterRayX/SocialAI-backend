@@ -1,0 +1,98 @@
+[Info  - 3:51:46 AM] 2024/09/06 03:51:46 Created View (#1)
+	directory=/home/xiaobr
+	view_type="GoMod"
+	root_dir="file:///home/xiaobr"
+	go_version="go version go1.22.6 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/xiaobr/.cache/go-build GOMODCACHE:/home/xiaobr/go/pkg/mod GOPATH:/home/xiaobr/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:22 GoVersionOutput:go version go1.22.6 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 3:51:48 AM] 2024/09/06 03:51:47 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/xiaobr
+	query=[/home/xiaobr/... builtin]
+	packages=2
+	duration=1.224441875s
+
+[Info  - 3:51:48 AM] 2024/09/06 03:51:48 Created View (#2)
+	directory=/home/xiaobr
+	view_type="GoMod"
+	root_dir="file:///home/xiaobr/go/src/around"
+	go_version="go version go1.22.6 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/xiaobr/.cache/go-build GOMODCACHE:/home/xiaobr/go/pkg/mod GOPATH:/home/xiaobr/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:22 GoVersionOutput:go version go1.22.6 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 3:51:52 AM] 2024/09/06 03:51:52 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/xiaobr
+	query=[/home/xiaobr/go/src/around/... builtin]
+	packages=8
+	duration=4.378473878s
+
+[Error - 3:52:00 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 3:52:16 AM] 2024/09/06 03:52:16 background imports cache refresh starting
+
+[Info  - 3:52:17 AM] 2024/09/06 03:52:17 background refresh finished after 281.348797ms
+
+[Info  - 3:52:18 AM] 2024/09/06 03:52:18 background imports cache refresh starting
+
+[Info  - 3:52:20 AM] 2024/09/06 03:52:20 background refresh finished after 2.251885292s
+
+[Info  - 4:01:19 AM] 2024/09/06 04:01:19 background imports cache refresh starting
+
+[Info  - 4:01:19 AM] 2024/09/06 04:01:19 background refresh finished after 7.587003ms
+
+Request to stop language server - installation (enabled: true)[Info  - 4:02:40 AM] 2024/09/06 04:02:39 Shutdown session
+	shutdown_session=1
+
+[Info  - 4:02:42 AM] 2024/09/06 04:02:40 Created View (#1)
+	directory=/home/xiaobr
+	view_type="GoMod"
+	root_dir="file:///home/xiaobr"
+	go_version="go version go1.22.6 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/xiaobr/.cache/go-build GOMODCACHE:/home/xiaobr/go/pkg/mod GOPATH:/home/xiaobr/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:22 GoVersionOutput:go version go1.22.6 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 4:02:42 AM] 2024/09/06 04:02:41 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/xiaobr
+	query=[/home/xiaobr/... builtin]
+	packages=2
+	duration=1.367144955s
+
+[Info  - 4:02:42 AM] 2024/09/06 04:02:42 Created View (#2)
+	directory=/home/xiaobr
+	view_type="GoMod"
+	root_dir="file:///home/xiaobr/go/src/around"
+	go_version="go version go1.22.6 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/xiaobr/.cache/go-build GOMODCACHE:/home/xiaobr/go/pkg/mod GOPATH:/home/xiaobr/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GoVersion:22 GoVersionOutput:go version go1.22.6 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 4:02:48 AM] 2024/09/06 04:02:44 go/packages.Load #2
+	view_id="2"
+	snapshot=0
+	directory=/home/xiaobr
+	query=[/home/xiaobr/go/src/around/... builtin]
+	packages=8
+	duration=2.445878138s
+
+[Info  - 4:03:10 AM] 2024/09/06 04:03:10 background imports cache refresh starting
+
+[Info  - 4:03:10 AM] 2024/09/06 04:03:10 background refresh finished after 351.692321ms
+
+[Info  - 4:03:12 AM] 2024/09/06 04:03:12 background imports cache refresh starting
+
+[Info  - 4:03:14 AM] 2024/09/06 04:03:14 background refresh finished after 2.396773812s
+

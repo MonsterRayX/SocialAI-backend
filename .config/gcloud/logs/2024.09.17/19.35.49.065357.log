@@ -1,0 +1,49 @@
+2024-09-17 19:35:49,069 DEBUG    root            Loaded Command Group: ['gcloud', 'iam']
+2024-09-17 19:35:49,073 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service_accounts']
+2024-09-17 19:35:49,203 DEBUG    root            Loaded Command Group: ['gcloud', 'iam', 'service-accounts', 'add_iam_policy_binding']
+2024-09-17 19:35:49,238 DEBUG    root            Running [gcloud.iam.service-accounts.add-iam-policy-binding] with arguments: [--member: "serviceAccount:@cloudbuild.gserviceaccount.com", --role: "roles/iam.serviceAccountUser", SERVICE_ACCOUNT: "@appspot.gserviceaccount.com"]
+2024-09-17 19:35:49,302 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): iam.googleapis.com:443
+2024-09-17 19:35:49,501 DEBUG    urllib3.connectionpool https://iam.googleapis.com:443 "POST /v1/projects/socialai-432601/serviceAccounts/@appspot.gserviceaccount.com:getIamPolicy?alt=json&options.requestedPolicyVersion=3 HTTP/1.1" 400 None
+2024-09-17 19:35:49,504 DEBUG    root            (gcloud.iam.service-accounts.add-iam-policy-binding) INVALID_ARGUMENT: Unknown error
+Traceback (most recent call last):
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/calliope/backend.py", line 838, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/command_lib/util/apis/yaml_command_translator.py", line 1363, in Run
+    policy = self._GetModifiedIamPolicyAddIamBinding(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/command_lib/util/apis/yaml_command_translator.py", line 1310, in _GetModifiedIamPolicyAddIamBinding
+    policy = self._GetIamPolicy(args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/command_lib/util/apis/yaml_command_translator.py", line 1283, in _GetIamPolicy
+    policy = get_iam_method.Call(get_iam_request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/command_lib/util/apis/registry.py", line 341, in Call
+    return request_func(global_params=global_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/command_lib/util/apis/registry.py", line 404, in RequestFunc
+    return method(request, global_params=global_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/googlecloudsdk/generated_clients/apis/iam/v1/iam_v1_client.py", line 4136, in GetIamPolicy
+    return self._RunMethod(
+           ^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/third_party/apitools/base/py/base_api.py", line 737, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/third_party/apitools/base/py/base_api.py", line 743, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/269/lib/third_party/apitools/base/py/base_api.py", line 609, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpBadRequestError: HttpError accessing <https://iam.googleapis.com/v1/projects/socialai-432601/serviceAccounts/@appspot.gserviceaccount.com:getIamPolicy?alt=json&options.requestedPolicyVersion=3>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Tue, 17 Sep 2024 19:35:49 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'status': 400}>, content <{
+  "error": {
+    "code": 400,
+    "message": "Unknown error",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+>
+2024-09-17 19:35:49,518 ERROR    root            (gcloud.iam.service-accounts.add-iam-policy-binding) INVALID_ARGUMENT: Unknown error

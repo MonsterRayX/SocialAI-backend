@@ -1,0 +1,25 @@
+2024-09-10 00:57:52.028 [info] Try to start language server - activation (enabled: true)
+2024-09-10 00:57:52.161 [info] Running language server gopls(v0.16.2/go1.22.6)
+2024-09-10 00:58:09.028 [info] Running checks...
+2024-09-10 00:58:09.028 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-09-10 00:58:11.601 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-09-10 00:58:11.601 [info] 
+2024-09-10 00:58:15.577 [info] Running checks...
+2024-09-10 00:58:15.578 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-09-10 00:58:17.204 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-09-10 00:58:17.204 [info] /home/xiaobr/go/src/around/handler/router.go:11:5 no required module provides package github.com; to add it:
+2024-09-10 00:58:17.204 [info] 
+2024-09-10 00:58:21.004 [info] Running checks...
+2024-09-10 00:58:21.004 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-09-10 00:58:22.379 [info] Running checks...
+2024-09-10 00:58:22.379 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-09-10 00:58:22.521 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-09-10 00:58:22.521 [info] 
+2024-09-10 00:58:25.208 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-09-10 00:58:25.208 [info] /home/xiaobr/go/src/around/handler/router.go:11:5 handlers redeclared in this block
+2024-09-10 00:58:25.208 [info] /home/xiaobr/go/src/around/handler/router.go:11:5 "github.com/gorilla/handlers" imported and not used (compile)
+2024-09-10 00:58:25.208 [info] 
+2024-09-10 00:58:25.699 [info] Running checks...
+2024-09-10 00:58:25.700 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-09-10 00:58:27.370 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-09-10 00:58:27.371 [info] 

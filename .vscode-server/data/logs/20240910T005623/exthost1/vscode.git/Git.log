@@ -1,0 +1,62 @@
+2024-09-10 00:56:27.232 [info] [main] Log level: Info
+2024-09-10 00:56:27.232 [info] [main] Validating found git in: "git"
+2024-09-10 00:56:27.232 [info] [main] Using git "2.25.1" from "git"
+2024-09-10 00:56:27.232 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-10 00:56:27.232 [info] > git rev-parse --show-toplevel [24ms]
+2024-09-10 00:56:27.391 [info] > git rev-parse --git-dir --git-common-dir [153ms]
+2024-09-10 00:56:27.450 [info] [Model][openRepository] Opened repository: /home/xiaobr
+2024-09-10 00:56:27.481 [info] > git config --get commit.template [17ms]
+2024-09-10 00:56:27.512 [info] > git rev-parse --show-toplevel [34ms]
+2024-09-10 00:56:27.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [42ms]
+2024-09-10 00:56:27.546 [warning] [Git][getBranch] No such branch: master
+2024-09-10 00:56:27.623 [info] > git rev-parse --show-toplevel [80ms]
+2024-09-10 00:56:27.698 [info] > git rev-parse --show-toplevel [38ms]
+2024-09-10 00:56:27.730 [info] > git rev-parse --show-toplevel [19ms]
+2024-09-10 00:56:27.775 [info] > git rev-parse --show-toplevel [39ms]
+2024-09-10 00:56:27.827 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-10 00:56:27.903 [info] > git rev-parse --show-toplevel [47ms]
+2024-09-10 00:56:27.957 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-10 00:56:28.044 [info] > git rev-parse --show-toplevel [23ms]
+2024-09-10 00:56:28.314 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [175ms]
+2024-09-10 00:56:28.385 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [47ms]
+2024-09-10 00:56:28.388 [info] > git show --textconv :go/src/around/app.yaml [263ms]
+2024-09-10 00:56:28.670 [info] > git check-ignore -v -z --stdin [574ms]
+2024-09-10 00:56:28.910 [info] > git fetch [1462ms]
+2024-09-10 00:56:28.911 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/MonsterRayX/SocialAI.git/'
+2024-09-10 00:56:28.949 [info] > git status -z -uall [1382ms] (cancelled)
+2024-09-10 00:56:28.951 [info] > git config --get commit.template [15ms]
+2024-09-10 00:56:28.954 [info] > git config --get commit.template [6ms]
+2024-09-10 00:56:28.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-09-10 00:56:28.983 [warning] [Git][getBranch] No such branch: master
+2024-09-10 00:56:28.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-09-10 00:56:28.989 [warning] [Git][getBranch] No such branch: master
+2024-09-10 00:56:29.711 [info] > git status -z -uall [718ms] (cancelled)
+2024-09-10 00:57:51.808 [info] > git show --textconv :go/src/around/handler/router.go [22ms]
+2024-09-10 00:57:51.823 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/handler/router.go [27ms]
+2024-09-10 00:57:51.832 [info] > git cat-file -s cd1e2bba939e1371f80399668b18c0837b8fdbb3 [3ms]
+2024-09-10 01:00:06.185 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/conf/deploy.yml [20ms]
+2024-09-10 01:00:06.189 [info] > git show --textconv :go/src/around/conf/deploy.yml [28ms]
+2024-09-10 01:00:06.191 [info] > git cat-file -s faed26b6031e6cf8d651082486ec1ea1f72a8a52 [2ms]
+2024-09-10 01:00:19.628 [info] > git show --textconv :go/src/around/util/yaml.go [47ms]
+2024-09-10 01:00:19.646 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/util/yaml.go [51ms]
+2024-09-10 01:00:19.654 [info] > git cat-file -s 7e4a66c77c7428ebbeb537dac25ee3e6f33c0575 [2ms]
+2024-09-10 01:00:38.093 [info] > git show --textconv :go/src/around/backend/elasticsearch.go [29ms]
+2024-09-10 01:00:38.098 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/backend/elasticsearch.go [29ms]
+2024-09-10 01:00:38.105 [info] > git cat-file -s abc3227c6ca0b718509d8a24dc56e768f6b3bfc2 [2ms]
+2024-09-10 01:00:51.719 [info] > git show --textconv :go/src/around/handler/user.go [29ms]
+2024-09-10 01:00:51.724 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/handler/user.go [26ms]
+2024-09-10 01:00:51.730 [info] > git cat-file -s 5edeed430c556670a12e9f8f51e2a718b1563ec7 [2ms]
+2024-09-10 01:01:23.928 [info] > git show --textconv :go/src/around/handler/router.go [20ms]
+2024-09-10 01:01:23.931 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/handler/router.go [18ms]
+2024-09-10 01:01:23.936 [info] > git cat-file -s cd1e2bba939e1371f80399668b18c0837b8fdbb3 [2ms]
+2024-09-10 01:01:56.198 [info] > git show --textconv :go/src/around/main.go [23ms]
+2024-09-10 01:01:56.203 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/main.go [23ms]
+2024-09-10 01:01:56.209 [info] > git cat-file -s 584beca90d6e72c5ac01f4891c8c1ea5454dcb1a [3ms]
+2024-09-10 01:02:20.950 [info] > git show --textconv :go/src/around/app.yaml [22ms]
+2024-09-10 01:02:20.953 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [20ms]
+2024-09-10 01:02:20.958 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]

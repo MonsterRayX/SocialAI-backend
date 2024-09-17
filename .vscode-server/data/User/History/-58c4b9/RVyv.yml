@@ -1,0 +1,10 @@
+elasticsearch:
+  address: ""
+  username: ""
+  password: ""
+
+gcs:
+  bucket: "social-ai"
+
+token:
+  secret: "secret"

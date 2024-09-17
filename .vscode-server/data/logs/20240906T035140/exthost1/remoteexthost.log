@@ -1,0 +1,261 @@
+2024-09-06 03:51:43.022 [info] Extension host with pid 340404 started
+2024-09-06 03:51:43.063 [info] Lock '/home/xiaobr/.vscode-server/data/User/workspaceStorage/2af8f6c5772baf43423a18235072030f/vscode.lock': Lock acquired.
+2024-09-06 03:51:43.317 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-06 03:51:43.327 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2024-09-06 03:51:44.334 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-06 03:51:44.471 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-06 03:51:44.471 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-06 03:51:46.068 [info] Eager extensions activated
+2024-09-06 03:51:46.077 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 03:51:46.079 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 03:52:00.863 [error] [golang.go] provider FAILED
+2024-09-06 03:52:00.886 [error] Error: context canceled
+	at handleResponse (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8606:40)
+	at handleMessage (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8416:11)
+	at processMessageQueue (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8431:13)
+	at Immediate.<anonymous> (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8407:11)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-09-06 04:02:40.771 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:02:43.465 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:02:44.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10428
+2024-09-06 04:02:48.430 [error] Error: Failed to execute git
+	at t.Git._exec (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:910329)
+	at async t.Git.exec (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:909397)
+	at async N.exec (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:914900)
+	at async N.add (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:920459)
+	at async /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1016899
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.commit (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1016803)
+	at async /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/github/dist/extension.js:2:313785
+2024-09-06 04:02:49.471 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:05:35.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12523
+2024-09-06 04:05:38.180 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:06:55.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:06:57.854 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:07:30.784 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:07:32.237 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:07:38.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:07:39.951 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:07:48.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:07:49.980 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:08:36.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:08:39.230 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:08:56.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:08:59.550 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:10:15.784 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:10:18.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:10:20.523 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:10:21.523 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:10:44.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:10:45.724 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:11:12.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:11:13.209 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:11:27.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:11:29.177 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:11:35.084 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:11:36.212 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:11:37.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:11:38.978 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 04:11:52.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-09-06 04:11:53.667 [error] Error: No such branch: master.
+	at N.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-09-06 11:17:12.373 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-09-06 11:17:12.375 [info] Lock '/home/xiaobr/.vscode-server/data/User/workspaceStorage/2af8f6c5772baf43423a18235072030f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-06 11:17:12.430 [error] Canceled: Canceled
+	at new C (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at i.O [as value] (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:951642)
+	at n.B (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:972220)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:177:7301)
+	at j.h (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-09-06 11:17:12.431 [error] Canceled: Canceled
+	at new C (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+	at y.U (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+	at z.<computed>.j.charCodeAt.R.CharCode.DollarSign.z.<computed> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at d.g (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+	at d.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at A.registerCommand.description (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+	at d.h (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+	at d.g (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+	at d.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+	at Object.executeCommand (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/github/dist/extension.js:2:322969)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/github/dist/extension.js:2:323928
+	at i.value (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1060193)
+	at n.B (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.C (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at n.fire (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:972220)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:978342
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:978328)
+	at a.<anonymous> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+	at a.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at a.<anonymous> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:953940)
+	at a.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+	at $ (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+	at m.eb (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+	at /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+	at Array.map (<anonymous>)
+	at m.$ (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+	at m.terminate (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+	at $.terminate (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at o (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+	at j.a (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:177:7301)
+	at j.h (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/workbench/api/node/extensionHostProcess.js:87:21483)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2024-09-06 11:17:12.444 [info] Extension host with pid 340404 exiting with code 0

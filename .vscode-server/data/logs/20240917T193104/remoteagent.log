@@ -1,0 +1,17 @@
+2024-09-17 19:31:05.043 [info] 
+
+
+
+
+2024-09-17 19:31:05.058 [info] Extension host agent started.
+2024-09-17 19:31:05.154 [info] [<unknown>][72d34846][ManagementConnection] New connection established.
+2024-09-17 19:31:05.156 [info] [<unknown>][b49366f1][ExtensionHostConnection] New connection established.
+2024-09-17 19:31:05.333 [info] [<unknown>][b49366f1][ExtensionHostConnection] <454272> Launched Extension Host Process.
+2024-09-17 19:31:10.383 [info] Getting Manifest... golang.go
+2024-09-17 19:31:10.667 [info] Installing extension: golang.go {"productVersion":{"version":"1.93.1","date":"1970-01-01T00:00:00.000Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"darwin-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/xiaobr/.vscode-server/extensions/extensions.json","external":"file:///home/xiaobr/.vscode-server/extensions/extensions.json","path":"/home/xiaobr/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-09-17 19:31:14.844 [info] Extension signature verification result for golang.go: Success. Executed: true. Duration: 3518ms.
+2024-09-17 19:31:15.090 [info] Extracted extension to file:///home/xiaobr/.vscode-server/extensions/golang.go-0.42.1: golang.go
+2024-09-17 19:31:15.104 [info] Renamed to /home/xiaobr/.vscode-server/extensions/golang.go-0.42.1
+2024-09-17 19:31:15.126 [info] Marked extension as uninstalled golang.go-0.42.0
+2024-09-17 19:31:15.130 [info] Extension installed successfully: golang.go file:///home/xiaobr/.vscode-server/extensions/extensions.json
+2024-09-17 19:36:05.061 [info] New EH opened, aborting shutdown

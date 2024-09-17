@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:44075
+[2024-09-10 00:56:22] info Disposed of connection to running server.
+looking for token bce04c73-2c4a-46bd-99d5-5b96aab577b2, got Some("bce04c73-2c4a-46bd-99d5-5b96aab577b2")
+[2024-09-10 00:56:22] info Checking /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/log.txt and /home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/pid.txt for a running server...
+[2024-09-10 00:56:22] info Starting server...
+[2024-09-10 00:56:22] info Server started
+[2024-09-10 01:42:20] info Disposed of connection to running server.

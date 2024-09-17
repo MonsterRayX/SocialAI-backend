@@ -1,0 +1,43 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-2c3625d4-613f-467f-909c-dd65d878e100
+Extension host agent listening on /tmp/code-2c3625d4-613f-467f-909c-dd65d878e100
+
+[19:31:04] 
+
+
+
+
+[19:31:05] Extension host agent started.
+[19:31:05] [<unknown>][72d34846][ManagementConnection] New connection established.
+[19:31:05] [<unknown>][b49366f1][ExtensionHostConnection] New connection established.
+[19:31:05] [<unknown>][b49366f1][ExtensionHostConnection] <454272> Launched Extension Host Process.
+[19:31:10] Getting Manifest... golang.go
+[19:31:10] Installing extension: golang.go {
+  productVersion: { version: '1.93.1', date: '1970-01-01T00:00:00.000Z' },
+  pinned: false,
+  isApplicationScoped: false,
+  context: { clientTargetPlatform: 'darwin-x64' },
+  installOnlyNewlyAddedFromExtensionPack: true,
+  profileLocation: v {
+    scheme: 'file',
+    authority: '',
+    path: '/home/xiaobr/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/xiaobr/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/xiaobr/.vscode-server/extensions/extensions.json'
+  }
+}
+[19:31:14] Extension signature verification result for golang.go: Success. Executed: true. Duration: 3518ms.
+[19:31:15] Extracted extension to file:///home/xiaobr/.vscode-server/extensions/golang.go-0.42.1: golang.go
+[19:31:15] Renamed to /home/xiaobr/.vscode-server/extensions/golang.go-0.42.1
+[19:31:15] Marked extension as uninstalled golang.go-0.42.0
+[19:31:15] Extension installed successfully: golang.go file:///home/xiaobr/.vscode-server/extensions/extensions.json
+New EH opened, aborting shutdown
+[19:36:05] New EH opened, aborting shutdown

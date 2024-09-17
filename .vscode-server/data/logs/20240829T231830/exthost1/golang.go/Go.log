@@ -1,0 +1,73 @@
+2024-08-29 23:18:35.398 [info] Try to start language server - activation (enabled: true)
+2024-08-29 23:18:35.808 [info] Running language server gopls(v0.16.1/go1.22.6)
+2024-08-29 23:26:40.638 [info] Running checks...
+2024-08-29 23:26:40.639 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:41.207 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:41.207 [info] /home/xiaobr/go/src/around/util/yaml.go:4:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:26:41.207 [info] 
+2024-08-29 23:26:44.299 [info] Running checks...
+2024-08-29 23:26:44.299 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:44.542 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:44.542 [info] /home/xiaobr/go/src/around/util/yaml.go:4:2 "fmt" imported and not used
+2024-08-29 23:26:44.542 [info] /home/xiaobr/go/src/around/util/yaml.go:42:2 use of package fmt not in selector (compile)
+2024-08-29 23:26:44.542 [info] 
+2024-08-29 23:26:46.489 [info] Running checks...
+2024-08-29 23:26:46.489 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:46.775 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:46.775 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:26:46.775 [info] 
+2024-08-29 23:26:49.176 [info] Running checks...
+2024-08-29 23:26:49.177 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:49.418 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:49.418 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:26:49.418 [info] 
+2024-08-29 23:26:51.834 [info] Running checks...
+2024-08-29 23:26:51.835 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:52.120 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:52.120 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:26:52.120 [info] 
+2024-08-29 23:26:53.449 [info] Running checks...
+2024-08-29 23:26:53.449 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:26:53.775 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:26:53.775 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:26:53.775 [info] 
+2024-08-29 23:27:17.947 [info] Running checks...
+2024-08-29 23:27:17.947 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:18.205 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:18.205 [info] /home/xiaobr/go/src/around/util/yaml.go:42:19 config.c undefined (type ApplicationConfig has no field or method c) (compile)
+2024-08-29 23:27:18.206 [info] 
+2024-08-29 23:27:20.000 [info] Running checks...
+2024-08-29 23:27:20.000 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:20.278 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:20.278 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:27:20.278 [info] 
+2024-08-29 23:27:26.586 [info] Running checks...
+2024-08-29 23:27:26.587 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:26.857 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:26.857 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:27:26.857 [info] 
+2024-08-29 23:27:45.248 [info] Running checks...
+2024-08-29 23:27:45.248 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:45.513 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:45.513 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:27:45.513 [info] 
+2024-08-29 23:27:48.254 [info] Running checks...
+2024-08-29 23:27:48.255 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:48.489 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:48.489 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:27:48.489 [info] 
+2024-08-29 23:27:49.621 [info] Running checks...
+2024-08-29 23:27:49.621 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:27:49.842 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:27:49.842 [info] /home/xiaobr/go/src/around/util/yaml.go:5:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:27:49.842 [info] 
+2024-08-29 23:37:49.387 [info] Running checks...
+2024-08-29 23:37:49.387 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:37:49.673 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:37:49.673 [info] /home/xiaobr/go/src/around/util/yaml.go:4:2 "fmt" imported and not used (compile)
+2024-08-29 23:37:49.673 [info] 
+2024-08-29 23:37:52.237 [info] Running checks...
+2024-08-29 23:37:52.237 [info] Starting linting the current package at /home/xiaobr/go/src/around/util
+2024-08-29 23:37:52.801 [info] /home/xiaobr/go/src/around/util>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-29 23:37:52.801 [info] /home/xiaobr/go/src/around/util/yaml.go:4:2 "io/ioutil" has been deprecated since Go 1.19: As of Go 1.16, the same functionality is now provided by package [io] or package [os], and those implementations should be preferred in new code. See the specific function documentation for details.  (SA1019)
+2024-08-29 23:37:52.801 [info] 

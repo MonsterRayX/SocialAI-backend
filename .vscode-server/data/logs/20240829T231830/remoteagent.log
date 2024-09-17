@@ -1,0 +1,17 @@
+2024-08-29 23:18:31.096 [info] 
+
+
+
+
+2024-08-29 23:18:31.112 [info] Extension host agent started.
+2024-08-29 23:18:31.244 [info] [<unknown>][3230d876][ExtensionHostConnection] New connection established.
+2024-08-29 23:18:31.245 [info] [<unknown>][d85b46f3][ManagementConnection] New connection established.
+2024-08-29 23:18:31.416 [info] [<unknown>][3230d876][ExtensionHostConnection] <278643> Launched Extension Host Process.
+2024-08-29 23:23:31.113 [info] New EH opened, aborting shutdown
+2024-08-30 00:33:52.181 [info] [<unknown>][d85b46f3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-30 03:34:02.605 [info] [<unknown>][3230d876][ExtensionHostConnection] <278643> Extension Host Process exited with code: 0, signal: null.
+2024-08-30 03:34:02.611 [info] Last EH closed, waiting before shutting down
+2024-08-30 03:34:02.616 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/xiaobr/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)
+2024-08-30 03:39:02.616 [info] Last EH closed, shutting down

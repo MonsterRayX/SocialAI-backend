@@ -1,0 +1,331 @@
+2024-09-06 03:51:46.729 [info] [main] Log level: Info
+2024-09-06 03:51:46.729 [info] [main] Validating found git in: "git"
+2024-09-06 03:51:46.729 [info] [main] Using git "2.25.1" from "git"
+2024-09-06 03:51:46.729 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-06 03:51:46.729 [info] > git rev-parse --show-toplevel [287ms]
+2024-09-06 03:51:46.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.729 [info] > git rev-parse --show-toplevel [18ms]
+2024-09-06 03:51:46.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.740 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-06 03:51:46.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.748 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-06 03:51:46.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.768 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-06 03:51:46.768 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.953 [info] > git rev-parse --show-toplevel [172ms]
+2024-09-06 03:51:46.953 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:46.991 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-06 03:51:46.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:47.010 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-06 03:51:47.010 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:51:47.016 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-06 03:52:00.485 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-06 03:52:00.485 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:52:33.234 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-06 03:52:33.245 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:59:27.176 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-06 03:59:27.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 03:59:27.757 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-06 03:59:27.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 04:01:48.324 [info] > git rev-parse --show-toplevel [14ms]
+2024-09-06 04:01:48.324 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-06 04:02:32.420 [info] > git init [63ms]
+2024-09-06 04:02:32.441 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-06 04:02:32.454 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-09-06 04:02:32.493 [info] [Model][openRepository] Opened repository: /home/xiaobr
+2024-09-06 04:02:32.542 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:02:32.543 [info] > git config --get commit.template [19ms]
+2024-09-06 04:02:32.553 [info] > git fetch [61ms]
+2024-09-06 04:02:32.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2024-09-06 04:02:32.565 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:32.595 [info] > git config --get commit.template [32ms]
+2024-09-06 04:02:32.620 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:02:32.621 [info] > git config --get commit.template [31ms]
+2024-09-06 04:02:32.638 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:02:32.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-09-06 04:02:32.638 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:32.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-06 04:02:32.644 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:33.035 [info] > git show --textconv :go/src/around/app.yaml [16ms]
+2024-09-06 04:02:33.043 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [13ms]
+2024-09-06 04:02:33.195 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-06 04:02:33.971 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [4ms]
+2024-09-06 04:02:34.050 [info] > git show --textconv :go/src/around/app.yaml [4ms]
+2024-09-06 04:02:36.306 [info] > git status -z -uall [3657ms] (cancelled)
+2024-09-06 04:02:39.620 [info] > git add -A -- . [7113ms]
+2024-09-06 04:02:39.620 [info] fatal: unable to stat '.cache/go-build/33/330df3f0f4a57ff62f659cfeffb08e0e8b0bca0b8e3c8ab7b71050d388c436ed-a': No such file or directory
+2024-09-06 04:02:39.644 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:02:39.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:02:39.646 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:39.650 [info] > git config --get commit.template [16ms]
+2024-09-06 04:02:40.223 [info] > git status -z -uall [563ms] (cancelled)
+2024-09-06 04:02:42.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1982ms]
+2024-09-06 04:02:42.460 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:43.831 [info] > git check-ignore -v -z --stdin [6ms]
+2024-09-06 04:02:48.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4368ms]
+2024-09-06 04:02:48.428 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:02:49.521 [info] > git check-ignore -v -z --stdin [13ms]
+2024-09-06 04:05:32.704 [info] > git fetch [55ms]
+2024-09-06 04:05:32.727 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:05:32.730 [info] > git config --get commit.template [11ms]
+2024-09-06 04:05:32.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-06 04:05:32.731 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:05:34.094 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [3ms]
+2024-09-06 04:05:34.139 [info] > git show --textconv :go/src/around/app.yaml [3ms]
+2024-09-06 04:05:37.177 [info] > git status -z -uall [4440ms] (cancelled)
+2024-09-06 04:05:37.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1353ms]
+2024-09-06 04:05:37.178 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:06:09.187 [info] > git check-ignore -v -z --stdin [16ms]
+2024-09-06 04:06:41.037 [info] > git check-ignore -v -z --stdin [11ms]
+2024-09-06 04:06:45.698 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-06 04:06:52.901 [info] > git add -A -- . [63461ms]
+2024-09-06 04:06:54.238 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [15ms]
+2024-09-06 04:06:54.249 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [5ms]
+2024-09-06 04:06:54.322 [info] > git show --textconv :go/src/around/app.yaml [24ms]
+2024-09-06 04:06:54.737 [info] > git -c user.useConfigOnly=true commit --quiet [1828ms]
+2024-09-06 04:06:54.737 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:06:54.745 [info] > git config --get-all user.name [2ms]
+2024-09-06 04:06:54.756 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:06:54.757 [info] > git config --get commit.template [7ms]
+2024-09-06 04:06:54.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:06:54.758 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:06:56.849 [info] > git status -z -uall [2086ms] (cancelled)
+2024-09-06 04:06:56.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1648ms]
+2024-09-06 04:06:56.851 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:06:58.147 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [18ms]
+2024-09-06 04:06:58.156 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]
+2024-09-06 04:06:58.221 [info] > git show --textconv :go/src/around/app.yaml [17ms]
+2024-09-06 04:07:30.282 [info] > git -c user.useConfigOnly=true commit --quiet [227ms]
+2024-09-06 04:07:30.282 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:07:30.295 [info] > git config --get-all user.name [4ms]
+2024-09-06 04:07:30.319 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:07:30.320 [info] > git config --get commit.template [13ms]
+2024-09-06 04:07:30.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-06 04:07:30.324 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:30.810 [info] > git status -z -uall [477ms] (cancelled)
+2024-09-06 04:07:30.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [82ms]
+2024-09-06 04:07:30.811 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:32.377 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [14ms]
+2024-09-06 04:07:32.383 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]
+2024-09-06 04:07:32.449 [info] > git show --textconv :go/src/around/app.yaml [13ms]
+2024-09-06 04:07:38.376 [info] > git -c user.useConfigOnly=true commit --quiet [189ms]
+2024-09-06 04:07:38.376 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:07:38.382 [info] > git config --get-all user.name [1ms]
+2024-09-06 04:07:38.391 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:07:38.391 [info] > git config --get commit.template [5ms]
+2024-09-06 04:07:38.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:07:38.392 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:38.829 [info] > git status -z -uall [433ms] (cancelled)
+2024-09-06 04:07:38.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [92ms]
+2024-09-06 04:07:38.829 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:40.008 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [13ms]
+2024-09-06 04:07:40.013 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [1ms]
+2024-09-06 04:07:40.069 [info] > git show --textconv :go/src/around/app.yaml [13ms]
+2024-09-06 04:07:48.371 [info] > git -c user.useConfigOnly=true commit --quiet [187ms]
+2024-09-06 04:07:48.371 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:07:48.377 [info] > git config --get-all user.name [1ms]
+2024-09-06 04:07:48.385 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:07:48.386 [info] > git config --get commit.template [5ms]
+2024-09-06 04:07:48.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:07:48.387 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:48.802 [info] > git status -z -uall [411ms] (cancelled)
+2024-09-06 04:07:48.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [71ms]
+2024-09-06 04:07:48.803 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:07:50.043 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [16ms]
+2024-09-06 04:07:50.050 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]
+2024-09-06 04:07:50.117 [info] > git show --textconv :go/src/around/app.yaml [15ms]
+2024-09-06 04:08:25.046 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads [2ms]
+2024-09-06 04:08:36.042 [info] > git fetch [50ms]
+2024-09-06 04:08:36.042 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2024-09-06 04:08:36.055 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:08:36.056 [info] > git config --get commit.template [7ms]
+2024-09-06 04:08:36.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-06 04:08:36.060 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:08:38.229 [info] > git status -z -uall [2163ms] (cancelled)
+2024-09-06 04:08:38.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1612ms]
+2024-09-06 04:08:38.230 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:08:38.297 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [18ms]
+2024-09-06 04:08:38.306 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [3ms]
+2024-09-06 04:08:38.368 [info] > git show --textconv :go/src/around/app.yaml [16ms]
+2024-09-06 04:08:55.105 [info] > git stash list --format=%H%n%P%n%gd%n%gs -z [20ms]
+2024-09-06 04:08:55.143 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-06 04:08:55.144 [info] > git config --get commit.template [16ms]
+2024-09-06 04:08:55.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:08:55.145 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:08:58.543 [info] > git status -z -uall [3379ms] (cancelled)
+2024-09-06 04:08:58.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2702ms]
+2024-09-06 04:08:58.544 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:09:03.245 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-09-06 04:09:12.717 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-09-06 04:09:17.868 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-09-06 04:10:12.885 [info] > git remote add origin https://github.com/MonsterRayX/SocialAI.git [35ms]
+2024-09-06 04:10:12.906 [info] > git config --get commit.template [8ms]
+2024-09-06 04:10:12.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-06 04:10:12.910 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:14.263 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [26ms]
+2024-09-06 04:10:14.282 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [13ms]
+2024-09-06 04:10:14.353 [info] > git show --textconv :go/src/around/app.yaml [30ms]
+2024-09-06 04:10:17.671 [info] > git status -z -uall [4755ms] (cancelled)
+2024-09-06 04:10:17.685 [info] > git push -u origin master [1859ms]
+2024-09-06 04:10:17.686 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/MonsterRayX/SocialAI.git'
+2024-09-06 04:10:17.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2028ms]
+2024-09-06 04:10:17.714 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:17.767 [info] > git config --get commit.template [31ms]
+2024-09-06 04:10:17.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [88ms]
+2024-09-06 04:10:17.854 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:20.519 [info] > git status -z -uall [2646ms] (cancelled)
+2024-09-06 04:10:20.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2140ms]
+2024-09-06 04:10:20.521 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:30.848 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-09-06 04:10:42.225 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [13ms]
+2024-09-06 04:10:42.235 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [5ms]
+2024-09-06 04:10:42.304 [info] > git show --textconv :go/src/around/app.yaml [14ms]
+2024-09-06 04:10:44.020 [info] > git -c user.useConfigOnly=true commit --quiet [186ms]
+2024-09-06 04:10:44.020 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:10:44.027 [info] > git config --get-all user.name [2ms]
+2024-09-06 04:10:44.041 [info] > git config --get commit.template [6ms]
+2024-09-06 04:10:44.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 04:10:44.042 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:44.509 [info] > git status -z -uall [462ms] (cancelled)
+2024-09-06 04:10:44.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2024-09-06 04:10:44.509 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:10:45.798 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [14ms]
+2024-09-06 04:10:45.806 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]
+2024-09-06 04:10:45.868 [info] > git show --textconv :go/src/around/app.yaml [16ms]
+2024-09-06 04:11:11.667 [info] > git checkout -q -b main --no-track HEAD [2ms]
+2024-09-06 04:11:11.667 [info] fatal: 'HEAD' is not a commit and a branch 'main' cannot be created from it
+2024-09-06 04:11:11.677 [info] > git config --get commit.template [5ms]
+2024-09-06 04:11:11.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-06 04:11:11.678 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:12.112 [info] > git status -z -uall [431ms] (cancelled)
+2024-09-06 04:11:12.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [80ms]
+2024-09-06 04:11:12.113 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:27.282 [info] > git add -A -- . [419ms]
+2024-09-06 04:11:27.489 [info] > git -c user.useConfigOnly=true commit --quiet [201ms]
+2024-09-06 04:11:27.490 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:11:27.497 [info] > git config --get-all user.name [2ms]
+2024-09-06 04:11:27.510 [info] > git config --get commit.template [6ms]
+2024-09-06 04:11:27.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:11:27.511 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:27.969 [info] > git status -z -uall [453ms] (cancelled)
+2024-09-06 04:11:27.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [78ms]
+2024-09-06 04:11:27.970 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:29.259 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [2ms]
+2024-09-06 04:11:29.297 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [32ms]
+2024-09-06 04:11:29.389 [info] > git show --textconv :go/src/around/app.yaml [10ms]
+2024-09-06 04:11:34.681 [info] > git -c user.useConfigOnly=true commit --quiet [224ms]
+2024-09-06 04:11:34.681 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-09-06 04:11:34.687 [info] > git config --get-all user.name [2ms]
+2024-09-06 04:11:34.699 [info] > git config --get commit.template [6ms]
+2024-09-06 04:11:34.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:11:34.700 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:35.108 [info] > git status -z -uall [403ms] (cancelled)
+2024-09-06 04:11:35.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [67ms]
+2024-09-06 04:11:35.109 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:36.278 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [13ms]
+2024-09-06 04:11:36.285 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [2ms]
+2024-09-06 04:11:36.357 [info] > git show --textconv :go/src/around/app.yaml [15ms]
+2024-09-06 04:11:37.452 [info] > git fetch [726ms]
+2024-09-06 04:11:37.452 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/MonsterRayX/SocialAI.git/'
+2024-09-06 04:11:37.464 [info] > git config --get commit.template [5ms]
+2024-09-06 04:11:37.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:11:37.465 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:37.855 [info] > git status -z -uall [387ms] (cancelled)
+2024-09-06 04:11:37.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [64ms]
+2024-09-06 04:11:37.856 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:38.980 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-09-06 04:11:39.057 [info] > git ls-files --stage -- /home/xiaobr/go/src/around/app.yaml [13ms]
+2024-09-06 04:11:39.065 [info] > git cat-file -s 71184766053e1115c5395e23373b53cb12c0d29b [1ms]
+2024-09-06 04:11:39.137 [info] > git show --textconv :go/src/around/app.yaml [15ms]
+2024-09-06 04:11:52.038 [info] > git checkout -q -b main --no-track HEAD [2ms]
+2024-09-06 04:11:52.038 [info] fatal: 'HEAD' is not a commit and a branch 'main' cannot be created from it
+2024-09-06 04:11:52.051 [info] > git config --get commit.template [7ms]
+2024-09-06 04:11:52.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 04:11:52.053 [warning] [Git][getBranch] No such branch: master
+2024-09-06 04:11:52.537 [info] > git status -z -uall [479ms] (cancelled)
+2024-09-06 04:11:52.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2024-09-06 04:11:52.538 [warning] [Git][getBranch] No such branch: master

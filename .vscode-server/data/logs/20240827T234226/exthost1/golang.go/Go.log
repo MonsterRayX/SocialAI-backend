@@ -1,0 +1,48 @@
+2024-08-27 23:42:30.807 [info] Try to start language server - activation (enabled: true)
+2024-08-27 23:42:30.993 [info] Running language server gopls(v0.16.1/go1.22.6)
+2024-08-27 23:44:07.347 [info] Running checks...
+2024-08-27 23:44:07.359 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:44:09.406 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:44:09.406 [info] /home/xiaobr/go/src/around/handler/post.go:8:5 package socialai/model is not in std (/usr/lib/go-1.22/src/socialai/model) (compile)
+2024-08-27 23:44:09.406 [info] /home/xiaobr/go/src/around/handler/post.go:9:5 package socialai/service is not in std (/usr/lib/go-1.22/src/socialai/service) (compile)
+2024-08-27 23:44:09.406 [info] 
+2024-08-27 23:44:33.468 [info] Running checks...
+2024-08-27 23:44:33.468 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:44:34.422 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:44:34.422 [info] /home/xiaobr/go/src/around/handler/post.go:8:4 package socialai/model is not in std (/usr/lib/go-1.22/src/socialai/model) (compile)
+2024-08-27 23:44:34.422 [info] /home/xiaobr/go/src/around/handler/post.go:9:4 package socialai/service is not in std (/usr/lib/go-1.22/src/socialai/service) (compile)
+2024-08-27 23:44:34.422 [info] 
+2024-08-27 23:44:35.731 [info] Running checks...
+2024-08-27 23:44:35.731 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:44:37.152 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:44:37.152 [info] /home/xiaobr/go/src/around/handler/post.go:39:13 cannot use uuid.New() (value of type uuid.UUID) as string value in struct literal (compile)
+2024-08-27 23:44:37.152 [info] 
+2024-08-27 23:44:57.328 [info] Running checks...
+2024-08-27 23:44:57.328 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:44:57.970 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:44:57.970 [info] /home/xiaobr/go/src/around/handler/post.go:104:11 undefined: mux (compile)
+2024-08-27 23:44:57.970 [info] 
+2024-08-27 23:45:02.352 [info] Running checks...
+2024-08-27 23:45:02.353 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:02.715 [info] Running checks...
+2024-08-27 23:45:02.715 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:02.817 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:02.817 [info] 
+2024-08-27 23:45:04.495 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:04.495 [info] 
+2024-08-27 23:45:06.125 [info] Running checks...
+2024-08-27 23:45:06.125 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:06.772 [info] Running checks...
+2024-08-27 23:45:06.777 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:06.852 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:06.852 [info] 
+2024-08-27 23:45:08.316 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:08.316 [info] 
+2024-08-27 23:45:08.323 [info] Running checks...
+2024-08-27 23:45:08.324 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:08.986 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:08.986 [info] 
+2024-08-27 23:45:09.374 [info] Running checks...
+2024-08-27 23:45:09.375 [info] Starting linting the current package at /home/xiaobr/go/src/around/handler
+2024-08-27 23:45:10.048 [info] /home/xiaobr/go/src/around/handler>Finished running tool: /home/xiaobr/go/bin/staticcheck
+2024-08-27 23:45:10.048 [info] 

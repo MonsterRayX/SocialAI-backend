@@ -1,0 +1,21 @@
+2024-08-29 23:18:33.022 [info] Extension host with pid 278643 started
+2024-08-29 23:18:33.051 [info] Lock '/home/xiaobr/.vscode-server/data/User/workspaceStorage/2af8f6c5772baf43423a18235072030f/vscode.lock': Lock acquired.
+2024-08-29 23:18:33.563 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-29 23:18:33.571 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2024-08-29 23:18:34.572 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-29 23:18:34.746 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-29 23:18:34.747 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-29 23:18:35.663 [info] Eager extensions activated
+2024-08-29 23:18:35.663 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-29 23:18:35.664 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-29 23:23:06.258 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-29 23:24:18.611 [error] [golang.go] provider FAILED
+2024-08-29 23:24:18.617 [error] Error: context canceled
+	at handleResponse (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8606:40)
+	at handleMessage (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8416:11)
+	at processMessageQueue (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8431:13)
+	at Immediate.<anonymous> (/home/xiaobr/.vscode-server/extensions/golang.go-0.42.0/dist/goMain.js:8407:11)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-08-30 03:34:02.544 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-08-30 03:34:02.544 [info] Lock '/home/xiaobr/.vscode-server/data/User/workspaceStorage/2af8f6c5772baf43423a18235072030f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-30 03:34:02.577 [info] Extension host with pid 278643 exiting with code 0

@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:39679
+[2024-09-17 19:31:01] info Disposed of connection to running server.
+looking for token 651231a3-45a7-41ce-b34b-e1ba22b095bf, got Some("651231a3-45a7-41ce-b34b-e1ba22b095bf")
+[2024-09-17 19:31:01] info Checking /home/xiaobr/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/log.txt and /home/xiaobr/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/pid.txt for a running server...
+[2024-09-17 19:31:01] info Downloading Visual Studio Code server -> /tmp/.tmpLTiVx6/vscode-server-linux-x64.tar.gz
+[2024-09-17 19:31:04] info Starting server...
+[2024-09-17 19:31:04] info Server started
