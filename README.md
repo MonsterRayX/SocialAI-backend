@@ -3,6 +3,8 @@
 ## Launch a scalable web service in Go to handle posts and deployed to Google Cloud (Google App Engine)
 ## Use ElasticSearch (deployed to GCE) to provide search functgions such that users can search recent posts and list personal posts.
 
+### run backend
+`go run main.go`
 
 ### Steps to set up Google Cloud Engine
 1. Enable Compute Engine
